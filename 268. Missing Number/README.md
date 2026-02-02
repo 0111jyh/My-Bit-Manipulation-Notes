@@ -1,11 +1,13 @@
-Approach1:
+# 136. Single Number
+## Approach1:
 [3,0,1] 陣列長度3
 表示此ARRAY數字範圍是0-3，
 那只要將數字0-3數字作加總，
 再將ARRAY內有的數加總，
 再相減即可得到那一個不在陣列內的數字
+
 ---------
-Approach2:
+## Approach2:
 利用xor性質:
 x^0=x
 x^x=0
